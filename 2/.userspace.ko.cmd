@@ -1,0 +1,1 @@
+cmd_/home/matvei/kernel/2/userspace.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/matvei/kernel/2/userspace.ko /home/matvei/kernel/2/userspace.o /home/matvei/kernel/2/userspace.mod.o;  true
