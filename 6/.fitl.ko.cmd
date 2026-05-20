@@ -1,1 +1,0 @@
-cmd_/home/matvei/kernel/6/fitl.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/matvei/kernel/6/fitl.ko /home/matvei/kernel/6/fitl.o /home/matvei/kernel/6/fitl.mod.o;  true
